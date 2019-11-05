@@ -1,13 +1,4 @@
+@import "./_variables.scss";
 @import "./_base.scss";
-@import "./_utils.scss";
-
-/* please remove before you start */
-body {
-    background: mediumaquamarine;
-    color: white;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+@import "./_tabs.scss";
+@import "./_form.scss";

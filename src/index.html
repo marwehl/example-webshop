@@ -1,17 +1,48 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Boilerplate for neuefische students</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/css/styles.scss" />
-  </head>
+  <head>
+    <title>Webshop</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/styles.scss" />
+  </head>
 
-  <body>
-    <!-- include common modules like this -->
-    <module href="/common/header.html">developing</module>
+  <body>
+      <h1>Ein Traum auf vier Rädern</h1>
 
-    <main>
-      <img src="/img/neuefische-gmbh-logo.svg" />
-    </main>
-  </body>
+      <div class="tabs">
+          <input type="radio" name="tabs" id="0">
+          <label for="0">General</label>
+          <dl class="tab">
+              <dt>Model</dt>
+              <dd>DC11</dd>
+              <dt>Delivery time</dt>
+              <dd>2-3 weeks</dd>
+          </dl>
+          
+          <input type="radio" name="tabs" id="1">
+          <label for="1">Engine</label>
+          <dl class="tab">
+              <dt>bhp</dt>
+              <dd>404</dd>
+            </dl>
+          
+          <input type="radio" name="tabs" id="2">
+          <label for="2">Specials</label>
+          <dl class="tab">
+              <span>convertible, leather seats</span>
+          </dl>
+        </div>
+
+    <form>
+      <label>Anzahl der Autos:
+      <input type="text">
+    </label>
+    <button>Berechne des Gesamtpreis</button>
+    <section class="placeholder"></section>
+    </form>
+  </body>
+  <script src="js/tabs.js">
+  </script>
+   <script src="js/form.js">
+    </script>
 </html>
