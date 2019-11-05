@@ -1,12 +1,6 @@
-# Parcel boilerplate
+### Example Webshop
 
-A simple boilerplate for websites for component based HTML and CSS
-
-*Use this to develop a simple website/app with HTML and CSS.
-
-## Top features
-- scss
-- parcel
+In this project you can see a dynamic and responsive webpage of an online shop, build with HTLM, CSS, SCSS and JavaScript
 
 ## Installation
 ```sh
@@ -16,9 +10,4 @@ $ npm install
 ## Start server
 ```sh
 $ npm start
-```
-
-## Stop server
-```sh
-$ ^C # ctrl + c
 ```
